@@ -24,6 +24,6 @@ function currentLine(katzDeliLine) {
           for(let i = 0; i < katzDeliLine.length -1; i++) {
             string = string +  ` ${i + 1}. ${katzDeliLine[i]},`
           }
-          return string + ` ${katzDeliLine.slice(-1)[0]}.`
+          return string + ` ${katzDeliLine.slice(-1)[0]}` + '.'
           }
     }
